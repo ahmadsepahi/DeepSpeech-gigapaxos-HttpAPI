@@ -19,4 +19,4 @@ upload an audio file with 16Khz frequency via browser or terminal
 
 - Browser: http://localhost:8000/ -> upload file -> the result will be presented
 
-- Terminal: curl -F file=@test.wav http://localhost:8000
+- Terminal: curl -F file=@your_audio_file.wav http://localhost:8000
