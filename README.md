@@ -17,6 +17,6 @@ docker run -p 8000:8000 --network="host" --name deepspeech ahmadsepahi/deepspeec
 
 upload an audio file with 16Khz frequency via browser or terminal
 
-Browser: http://localhost:8000/ -> upload file -> the result will be presented
+- Browser: http://localhost:8000/ -> upload file -> the result will be presented
 
-Terminal: curl -F file=@test.wav http://localhost:8000
+- Terminal: curl -F file=@test.wav http://localhost:8000
